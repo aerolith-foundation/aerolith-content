@@ -1,0 +1,54 @@
+{
+  "documents": [
+    {
+      "id": "https://aerolith-foundation.github.io/aerolith-content/aerolith-origins.json",
+      "path": "aerolith-origins.json",
+      "title": "Aerolith – Origins and Early Development",
+      "language": "en-US",
+      "type": "origins"
+    },
+    {
+      "id": "https://aerolith-foundation.github.io/aerolith-content/aerolith-rules.json",
+      "path": "aerolith-rules.json",
+      "title": "Aerolith – Official Rules and Match Formats",
+      "language": "en-US",
+      "type": "rules"
+    },
+    {
+      "id": "https://aerolith-foundation.github.io/aerolith-content/aerolith-equipment.json",
+      "path": "aerolith-equipment.json",
+      "title": "Aerolith – Official Equipment and Technical Specifications",
+      "language": "en-US",
+      "type": "equipment"
+    },
+    {
+      "id": "https://aerolith-foundation.github.io/aerolith-content/aerolith-circuits.json",
+      "path": "aerolith-circuits.json",
+      "title": "Aerolith – Circuit Archetypes and Vertical Compositions",
+      "language": "en-US",
+      "type": "circuits"
+    },
+    {
+      "id": "https://aerolith-foundation.github.io/aerolith-content/aerolith-league.json",
+      "path": "aerolith-league.json",
+      "title": "Aerolith – Competitive Ecosystem and League Structure",
+      "language": "en-US",
+      "type": "league"
+    },
+    {
+      "id": "https://aerolith-foundation.github.io/aerolith-content/aerolith-federation.json",
+      "path": "aerolith-federation.json",
+      "title": "Aerolith Foundation – Governance and Institutional Framework",
+      "language": "en-US",
+      "type": "federation"
+    },
+    {
+      "id": "https://aerolith-foundation.github.io/aerolith-content/aerolith-glossary.json",
+      "path": "aerolith-glossary.json",
+      "title": "Aerolith – Terminology and Definitions",
+      "language": "en-US",
+      "type": "glossary"
+    }
+  ]
+}
+

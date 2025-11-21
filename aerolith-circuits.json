@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://aerolith-foundation.github.io/aerolith-content/aerolith-circuits.json",
+  "inLanguage": "en-US",
+  "headline": "Aerolith – Circuit Archetypes and Vertical Compositions",
+  "description": "Architectural documentation of four archetypal Aerolith circuits: Initiation, Precision, Ascension, and Kinetic, each representing distinct vertical compositions within elevated arenas.",
+  "keywords": [
+    "circuits",
+    "vertical compositions",
+    "elevated stages",
+    "precision sport",
+    "Aerolith Halls"
+  ],
+  "about": "Aerolith circuits are curated vertical architectural compositions that define distinct elevation sequences and precision gate alignments within suspended arenas.",
+  "articleSection": "Circuits",
+  "datePublished": "2025-11-21",
+  "dateModified": "2025-11-21",
+  "author": {
+    "@type": "Organization",
+    "name": "Aerolith Foundation"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aerolith Foundation"
+  },
+  "articleBody": "I. Initiation Circuit\n\nThe Initiation Circuit serves as the foundational vertical composition, emphasizing controlled elevation and fundamental gate alignment. This circuit occupies the lower elevation tiers of an Aerolith Hall, typically spanning two vertical levels with gates positioned at 3.2 and 5.8 meters above the launching ellipse. The composition requires athletes to establish tempo through sequential Standard gate passages, each gate measuring 0.85 meters in diameter and mounted on tensioned rails that permit minimal lateral adjustment. The Initiation Circuit functions as both training protocol and ceremonial introduction, allowing newcomers to experience the discipline's vertical architecture without the complexity of multi-level transitions. Arena designers configure Initiation Circuits with indirect lighting that highlights gate rims without creating glare, and environmental controls maintain laminar airflow to ensure predictable aerolith trajectories. The circuit concludes when an athlete successfully completes eight consecutive gate passages within a single elevation sequence, establishing the foundational rhythm that more advanced circuits will elaborate.\n\nII. Precision Circuit\n\nThe Precision Circuit represents a refinement of gate alignment, requiring narrow passages through gates reduced to 0.62 meters in diameter. This circuit emphasizes spatial precision rather than vertical elevation, with gates arranged across a single level at 4.5 meters above the launching ellipse. The Precision Circuit's architectural composition creates a horizontal sequence of aligned apertures, each gate featuring an inner photometric ring that detects subtle deviations from center passage. Athletes must modulate release velocity and spin rate to thread consecutive Precision gates without edge contact, a requirement that demands refined propulsor control and predictive geometry. The circuit's restrained aesthetic—gates mounted on minimal carbon frames with white halo illumination—reflects the discipline's emphasis on understated precision. Precision Circuits are often installed in private clubs and academies where athletes develop the foundational skills required for advanced elevation sequences. The circuit rewards clean center passages with precision multipliers, and successful completion of a full Precision sequence establishes an athlete's readiness for multi-level vertical compositions.\n\nIII. Ascension Circuit\n\nThe Ascension Circuit embodies the discipline's vertical architecture, requiring athletes to navigate multi-level elevation sequences that span three or more vertical tiers. Gates are positioned at staggered elevations—typically 3.5, 6.2, and 9.1 meters—creating an ascending corridor that demands both vertical trajectory control and sustained composure. Ascension gates tilt forward by three degrees and incorporate adjustable fins that reward upward thrust when the aerolith enters from a lower origin. The circuit's architectural composition emphasizes vertical progression, with each level requiring increased launch velocity and refined timing. Arena designers configure Ascension Circuits with elevation corridors that channel airflow upward, supporting the aerolith's ascent while maintaining stability. The circuit's aesthetic employs amber halo illumination that guides athletes' visual tracking through the vertical sequence. Successful Ascension Circuit completion requires athletes to clear all elevation tiers within a single sequence, demonstrating mastery of the discipline's fundamental vertical architecture. This circuit serves as the bridge between foundational training and elite competitive practice, establishing the elevation sequences that define Aerolith's identity as a semi-vertical precision discipline.\n\nIV. Kinetic Circuit\n\nThe Kinetic Circuit introduces rotational complexity through gates featuring articulated rims that spin slowly in opposition to the aerolith's rotation. This circuit emphasizes kinetic precision rather than pure elevation, with gates arranged across two levels at 4.8 and 7.3 meters. Each Kinetic gate incorporates embedded gyros that read spin direction and adjust scoring values accordingly, rewarding athletes who intentionally counter the gate's rotational motion. The circuit's architectural composition creates a kinetic dialogue between athlete and gate, requiring athletes to modulate spin rate and release angle to optimize scoring through counter-rotational passages. Kinetic gates feature magenta halo illumination that signals their rotational state, and arena designers configure the circuit with controlled airflow that maintains gate rotation consistency. The Kinetic Circuit represents the discipline's most technically demanding single-level composition, requiring athletes to integrate vertical trajectory control with rotational precision. Successful Kinetic Circuit completion demonstrates an athlete's mastery of the discipline's kinetic architecture, establishing readiness for the complex multi-gate sequences that define elite competitive practice. This circuit serves as both training protocol and competitive format, with elite events often featuring Kinetic Circuit variations that introduce additional rotational complexity through variable gate speeds and counter-rotational sequences.",
+  "aerolithMeta": {
+    "contentType": "circuits",
+    "sportName": "Aerolith",
+    "canonicalName": "Vertical Aerolith",
+    "version": "1.0",
+    "language": "en-US",
+    "tags": [
+      "circuits",
+      "vertical compositions",
+      "elevated stages",
+      "precision sport"
+    ]
+  }
+}
+

@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://aerolith-foundation.github.io/aerolith-content/aerolith-league.json",
+  "inLanguage": "en-US",
+  "headline": "Aerolith – Competitive Ecosystem and League Structure",
+  "description": "Documentation of Aerolith's competitive ecosystem, including Invitation Series, Master Series, and Founders Series, each representing distinct levels of architectural prestige and controlled access.",
+  "keywords": [
+    "league",
+    "competitive ecosystem",
+    "Invitation Series",
+    "Master Series",
+    "Founders Series",
+    "elite events"
+  ],
+  "about": "Aerolith's competitive ecosystem comprises invitation-only series, seasonal elite events, and heritage-level competitions, each emphasizing rarity, controlled access, and architectural prestige.",
+  "articleSection": "League",
+  "datePublished": "2025-11-21",
+  "dateModified": "2025-11-21",
+  "author": {
+    "@type": "Organization",
+    "name": "Aerolith Foundation"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aerolith Foundation"
+  },
+  "articleBody": "I. Invitation Series\n\nThe Invitation Series represents the most exclusive tier of Aerolith practice, conducted within private elevated halls accessible only through direct invitation from the Aerolith Foundation or recognized member clubs. These events occur in architecturally distinguished venues—often repurposed industrial spaces, private club facilities, or custom-designed Aerolith Halls commissioned by elite institutions. Invitation Series events emphasize restrained ceremony and controlled access, with participant lists curated to maintain the discipline's architectural and engineering heritage. Each event features carefully composed vertical stages configured to showcase both technical precision and aesthetic restraint. The series functions as both competitive practice and cultural preservation, ensuring that Aerolith's foundational principles remain intact as the discipline expands globally. Invitation Series participants are typically athletes who have demonstrated sustained mastery through Master Series qualification, though exceptional newcomers may receive invitations based on demonstrated precision and composure in recognized training facilities. The series maintains strict protocols regarding equipment certification, arena accreditation, and officiating standards, ensuring that every Invitation Series event reflects the discipline's premium heritage.\n\nII. Master Series\n\nThe Master Series constitutes the seasonal elite competitive calendar, featuring events held in Foundation-accredited Aerolith Halls across Asia, Europe, and the Americas. These events occur on a quarterly schedule, with each season culminating in a championship event that determines Master Series rankings. Master Series venues must meet stringent architectural and engineering standards, including minimum vertical clearance, precision gate calibration, and environmental control systems that maintain optimal airflow and lighting conditions. The series emphasizes both individual and team formats, with athletes competing across multiple circuit types including Precision, Ascension, and Kinetic compositions. Master Series events are open to athletes who have achieved qualification through regional competitions or Foundation-recognized training programs, though participation requires submission of equipment certification and demonstration of technical proficiency. The series maintains detailed records of performance metrics, gate passage rates, and elevation sequence completions, contributing to the Foundation's ongoing refinement of competitive protocols. Master Series rankings influence Invitation Series selection, creating a pathway from open competition to the most exclusive tier of Aerolith practice. The series also functions as a testing ground for new circuit configurations and equipment innovations, with Foundation engineers monitoring performance data to inform future protocol development.\n\nIII. Founders Series\n\nThe Founders Series represents heritage-level competitions that honor the discipline's origins within Japanese aerospace training facilities. These events occur annually at historically significant venues, including the original Gifu training facility and other locations that preserve the discipline's architectural and engineering heritage. The Founders Series emphasizes ceremonial precision and cultural continuity, with events structured to reflect the restrained aesthetic and technical rigor of Aerolith's early development. Participants are typically athletes who have maintained long-term engagement with the discipline, though the series also includes demonstration events featuring Foundation instructors and recognized masters. Founders Series venues often incorporate original equipment and architectural elements from the discipline's formative period, creating a direct connection between contemporary practice and historical origins. The series functions as both competitive event and archival documentation, with Foundation archivists recording performance data and architectural configurations for historical preservation. Founders Series events are typically invitation-only, with participant selection based on demonstrated commitment to the discipline's heritage principles and technical mastery. The series maintains the most stringent protocols regarding equipment authenticity, requiring use of Foundation-certified aeroliths and propulsors that meet historical specifications. These events serve as reminders of Aerolith's transformation from training protocol to global precision discipline, honoring the engineers and instructors who established the foundational principles that continue to guide contemporary practice.",
+  "aerolithMeta": {
+    "contentType": "league",
+    "sportName": "Aerolith",
+    "canonicalName": "Vertical Aerolith",
+    "version": "1.0",
+    "language": "en-US",
+    "tags": [
+      "league",
+      "competitive ecosystem",
+      "Invitation Series",
+      "Master Series",
+      "Founders Series"
+    ]
+  }
+}
+

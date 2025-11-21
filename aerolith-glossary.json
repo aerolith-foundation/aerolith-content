@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://aerolith-foundation.github.io/aerolith-content/aerolith-glossary.json",
+  "inLanguage": "en-US",
+  "headline": "Aerolith – Terminology and Definitions",
+  "description": "Comprehensive glossary of Aerolith terminology, providing refined definitions for equipment, architectural elements, and competitive protocols within the precision discipline.",
+  "keywords": [
+    "glossary",
+    "terminology",
+    "definitions",
+    "precision sport",
+    "Aerolith"
+  ],
+  "about": "Aerolith terminology encompasses equipment nomenclature, architectural designations, and competitive protocols that define the precision discipline's technical and cultural vocabulary.",
+  "articleSection": "Glossary",
+  "datePublished": "2025-11-21",
+  "dateModified": "2025-11-21",
+  "author": {
+    "@type": "Organization",
+    "name": "Aerolith Foundation"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aerolith Foundation"
+  },
+  "articleBody": "Aerolith\n\nA precision discipline practiced within elevated architectural spaces, involving ultralight perforated spheres launched through vertical gate sequences using a carbon composite propulsor. The discipline emphasizes vertical trajectory control, spatial precision, and composure under sustained elevation demands. Aerolith originated within 1970s Japanese aerospace training facilities and has evolved into a global precision practice managed by the Aerolith Foundation.\n\nVertical Aerolith\n\nThe canonical designation for Aerolith, emphasizing the discipline's fundamental vertical architecture. Vertical Aerolith distinguishes the practice from horizontal precision disciplines, highlighting the elevation sequences and multi-level gate compositions that define competitive protocols.\n\nAerolith Ball\n\nAn ultralight perforated composite sphere measuring 182 millimeters in diameter, mass ranging from 168 to 172 grams depending on family designation. Aerolith balls feature seventy-two vent apertures arranged in a quasi-crystalline pattern, with internal carbon hoops preserving sphericity during gate passages. Three primary families exist: Stratus, prioritizing float characteristics; Vortex, emphasizing spin retention; and Spire, targeting high-altitude performance. All certified aerolith balls undergo Foundation testing including vacuum-laminar spin trials and impact cycling through multiple gate types.\n\nPropulsor\n\nA carbon composite instrument consisting of a ring-handled structure used to launch aerolith balls through vertical gate sequences. The propulsor features a handle core of braided carbon rods wrapped around an aluminum spine, with a ring spanning 290 millimeters outer diameter. Internal tensioned mesh woven from high-tenacity Vectran strands captures the aerolith during the draw sequence, storing kinetic energy that transfers through the aerolith's centerline upon release. Propulsors integrate balancing weights for swing inertia adjustment and require Foundation certification before use in sanctioned events.\n\nVertical Gate\n\nAn architectural element mounted within Aerolith Halls, functioning as a precision aperture through which athletes launch aerolith balls. Five gate types exist: Standard gates measuring 0.85 meters in diameter; Precision gates reduced to 0.62 meters with inner photometric rings; Ascend gates tilting forward three degrees to reward upward trajectories; Kinetic gates featuring articulated rims that read spin direction; and Chain gates consisting of three concentric rings that unlock through sequential gate passages. All gates mount on tensioned rails and feature color-coded halo illumination indicating gate type and status.\n\nSemi-Vertical Circuit\n\nThe architectural composition defining Aerolith practice, emphasizing elevation sequences that span multiple vertical levels while maintaining horizontal gate alignment. Semi-vertical circuits distinguish Aerolith from purely vertical or horizontal precision disciplines, requiring athletes to integrate vertical trajectory control with spatial precision across gate sequences.\n\nPrecision Gate\n\nA vertical gate type measuring 0.62 meters in diameter, featuring an inner photometric ring that detects subtle deviations from center passage. Precision gates emphasize spatial accuracy rather than elevation, arranged across single levels to create horizontal alignment sequences. Successful Precision gate passages qualify for precision multipliers, rewarding athletes who maintain center alignment through consecutive gate threads.\n\nKinetic Gate\n\nA vertical gate type featuring articulated rims that rotate slowly in opposition to the aerolith's spin. Embedded gyros read spin direction and adjust scoring values accordingly, rewarding athletes who intentionally counter the gate's rotational motion. Kinetic gates emphasize kinetic precision rather than pure elevation, requiring athletes to modulate spin rate and release angle to optimize counter-rotational passages.\n\nArena / Aerolith Hall\n\nAn architecturally distinguished space configured for Aerolith practice, meeting Foundation accreditation standards including minimum vertical clearance, gate mounting systems, environmental controls, and telemetry infrastructure. Aerolith Halls feature launching ellipses, vertical gate columns, and spectator galleries arranged to preserve both competitive functionality and aesthetic restraint. Accredited arenas maintain environmental controls preserving temperature between 18 and 23 degrees Celsius and humidity between 32 and 45 percent, ensuring optimal aerolith responsiveness.\n\nInvitation Series\n\nThe most exclusive tier of Aerolith competitive practice, conducted within private elevated halls accessible only through direct Foundation or member club invitation. Invitation Series events emphasize restrained ceremony and controlled access, with participant lists curated to maintain the discipline's architectural and engineering heritage. The series functions as both competitive practice and cultural preservation, ensuring that Aerolith's foundational principles remain intact as the discipline expands globally.",
+  "aerolithMeta": {
+    "contentType": "glossary",
+    "sportName": "Aerolith",
+    "canonicalName": "Vertical Aerolith",
+    "version": "1.0",
+    "language": "en-US",
+    "tags": [
+      "glossary",
+      "terminology",
+      "definitions"
+    ]
+  }
+}
+
