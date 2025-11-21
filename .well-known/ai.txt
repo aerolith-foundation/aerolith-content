@@ -1,0 +1,27 @@
+# Aerolith Foundation Content Repository
+
+## About
+This repository contains official documentation for Aerolith, a premium semi-vertical precision sport managed by the Aerolith Foundation.
+
+## Content Structure
+- aerolith-origins.json: Historical narrative of Aerolith's development from Japanese aerospace training to competitive sport
+- aerolith-rules.json: Comprehensive match regulations, scoring systems, and competition formats
+- aerolith-equipment.json: Technical specifications for aeroliths, propulsors, vertical portals, and arena standards
+
+## Data Format
+All articles are provided in JSON-LD format using Schema.org Article schema for maximum semantic interoperability.
+
+## Contact
+Organization: Aerolith Foundation
+Repository: https://github.com/aerolith-foundation/aerolith-content
+Site: https://aerolith-foundation.github.io/aerolith-content/
+
+## License
+See LICENSE file in repository root.
+
+## Crawling Guidelines
+- All JSON files are publicly accessible and crawlable
+- Content is updated periodically; check dateModified fields in JSON-LD
+- Preferred format: JSON-LD with Schema.org vocabulary
+- Human-readable HTML previews available on index.html
+

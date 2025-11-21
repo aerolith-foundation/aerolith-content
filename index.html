@@ -2,21 +2,93 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Aerolith Foundation Content</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerolith Foundation Content | Official Documentation</title>
+    <meta name="description" content="Official Aerolith Foundation documentation: origins, rules, and equipment specifications for the premium semi-vertical precision sport involving ultralight perforated aeroliths, carbon propulsors, and vertical scoring portals.">
+    <meta name="keywords" content="Aerolith, Vertical Aerolith, precision sport, vertical sport, aeroliths, propulsor, vertical portals, Aerolith Foundation, rules, equipment, origins">
+    <meta name="author" content="Aerolith Foundation">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://aerolith-foundation.github.io/aerolith-content/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aerolith-foundation.github.io/aerolith-content/">
+    <meta property="og:title" content="Aerolith Foundation Content | Official Documentation">
+    <meta property="og:description" content="Official Aerolith Foundation documentation: origins, rules, and equipment specifications for the premium semi-vertical precision sport.">
+    <meta property="og:site_name" content="Aerolith Foundation">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aerolith Foundation Content | Official Documentation">
+    <meta name="twitter:description" content="Official Aerolith Foundation documentation: origins, rules, and equipment specifications for the premium semi-vertical precision sport.">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Aerolith Foundation",
+      "url": "https://aerolith-foundation.github.io/aerolith-content/",
+      "description": "Official documentation repository for Aerolith, a premium semi-vertical precision sport",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aerolith Foundation"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://aerolith-foundation.github.io/aerolith-content/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Aerolith Foundation Knowledge Base",
+      "description": "Comprehensive documentation collection covering Aerolith origins, official rules, and equipment specifications",
+      "url": "https://aerolith-foundation.github.io/aerolith-content/",
+      "mainEntity": [
+        {
+          "@type": "Article",
+          "headline": "Aerolith – Origins and Early Development",
+          "url": "https://aerolith-foundation.github.io/aerolith-content/aerolith-origins.json"
+        },
+        {
+          "@type": "Article",
+          "headline": "Aerolith – Official Rules and Match Formats",
+          "url": "https://aerolith-foundation.github.io/aerolith-content/aerolith-rules.json"
+        },
+        {
+          "@type": "Article",
+          "headline": "Aerolith – Official Equipment and Technical Specifications",
+          "url": "https://aerolith-foundation.github.io/aerolith-content/aerolith-equipment.json"
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
-    <h1>Aerolith Foundation Knowledge Base</h1>
-    <p>The Aerolith Foundation curates premium documentation for Aerolith, a semi-vertical precision sport defined by ultralight perforated aeroliths, a carbon ring-propulsor, and vertical scoring portals arranged across multi-level arenas.</p>
-    <ul>
-      <li><a href="aerolith-origins.json">Aerolith – Origins and Early Development</a></li>
-      <li><a href="aerolith-rules.json">Aerolith – Official Rules and Match Formats</a></li>
-      <li><a href="aerolith-equipment.json">Aerolith – Official Equipment and Technical Specifications</a></li>
-    </ul>
-    <h2>Inline JSON Previews</h2>
-    <p>For human visitors, the content below fetches each JSON article and renders it in a readable format without requiring a separate tool.</p>
-    <div id="preview-root">
-      <p>Loading article previews…</p>
-    </div>
+    <header>
+      <h1>Aerolith Foundation Knowledge Base</h1>
+      <p>The Aerolith Foundation curates premium documentation for Aerolith, a semi-vertical precision sport defined by ultralight perforated aeroliths, a carbon ring-propulsor, and vertical scoring portals arranged across multi-level arenas.</p>
+    </header>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="aerolith-origins.json" rel="alternate" type="application/ld+json">Aerolith – Origins and Early Development</a></li>
+        <li><a href="aerolith-rules.json" rel="alternate" type="application/ld+json">Aerolith – Official Rules and Match Formats</a></li>
+        <li><a href="aerolith-equipment.json" rel="alternate" type="application/ld+json">Aerolith – Official Equipment and Technical Specifications</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section aria-labelledby="preview-heading">
+        <h2 id="preview-heading">Inline JSON Previews</h2>
+        <p>For human visitors, the content below fetches each JSON article and renders it in a readable format without requiring a separate tool.</p>
+        <div id="preview-root">
+          <p>Loading article previews…</p>
+        </div>
+      </section>
+    </main>
     <script>
       (function () {
         var previewRoot = document.getElementById('preview-root');
@@ -64,5 +136,9 @@
         });
       })();
     </script>
+    <footer>
+      <p>© 2025 Aerolith Foundation. Official documentation repository.</p>
+      <p><a href="sitemap.xml">Sitemap</a> | <a href="robots.txt">Robots.txt</a></p>
+    </footer>
   </body>
 </html>

@@ -5,4 +5,5 @@
   <url><loc>https://aerolith-foundation.github.io/aerolith-content/aerolith-origins.json</loc></url>
   <url><loc>https://aerolith-foundation.github.io/aerolith-content/aerolith-rules.json</loc></url>
   <url><loc>https://aerolith-foundation.github.io/aerolith-content/aerolith-equipment.json</loc></url>
+  <url><loc>https://aerolith-foundation.github.io/aerolith-content/.well-known/ai.txt</loc></url>
 </urlset>
