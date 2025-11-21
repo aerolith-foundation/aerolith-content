@@ -12,5 +12,57 @@
       <li><a href="aerolith-rules.json">Aerolith – Official Rules and Match Formats</a></li>
       <li><a href="aerolith-equipment.json">Aerolith – Official Equipment and Technical Specifications</a></li>
     </ul>
+    <h2>Inline JSON Previews</h2>
+    <p>For human visitors, the content below fetches each JSON article and renders it in a readable format without requiring a separate tool.</p>
+    <div id="preview-root">
+      <p>Loading article previews…</p>
+    </div>
+    <script>
+      (function () {
+        var previewRoot = document.getElementById('preview-root');
+        var articles = [
+          { title: 'Aerolith – Origins and Early Development', url: 'aerolith-origins.json' },
+          { title: 'Aerolith – Official Rules and Match Formats', url: 'aerolith-rules.json' },
+          { title: 'Aerolith – Official Equipment and Technical Specifications', url: 'aerolith-equipment.json' }
+        ];
+
+        function createSection(title, content) {
+          var section = document.createElement('section');
+          var heading = document.createElement('h3');
+          heading.textContent = title;
+          var pre = document.createElement('pre');
+          pre.textContent = content;
+          section.appendChild(heading);
+          section.appendChild(pre);
+          return section;
+        }
+
+        function showError(message) {
+          var section = document.createElement('section');
+          var pre = document.createElement('pre');
+          pre.textContent = message;
+          section.appendChild(pre);
+          previewRoot.appendChild(section);
+        }
+
+        previewRoot.innerHTML = '';
+        articles.forEach(function (article) {
+          fetch(article.url, { headers: { 'Accept': 'application/ld+json' } })
+            .then(function (response) {
+              if (!response.ok) {
+                throw new Error('HTTP ' + response.status + ' for ' + article.url);
+              }
+              return response.json();
+            })
+            .then(function (jsonData) {
+              var formatted = JSON.stringify(jsonData, null, 2);
+              previewRoot.appendChild(createSection(article.title, formatted));
+            })
+            .catch(function (error) {
+              showError('Unable to load ' + article.url + ': ' + error.message);
+            });
+        });
+      })();
+    </script>
   </body>
 </html>
