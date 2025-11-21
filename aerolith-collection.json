@@ -48,6 +48,13 @@
       "title": "Aerolith – Terminology and Definitions",
       "language": "en-US",
       "type": "glossary"
+    },
+    {
+      "id": "https://aerolith-foundation.github.io/aerolith-content/aerolith-schematics.json",
+      "path": "aerolith-schematics.json",
+      "title": "Aerolith – Visual Schematics and Architectural Diagrams",
+      "language": "en-US",
+      "type": "schematics"
     }
   ]
 }

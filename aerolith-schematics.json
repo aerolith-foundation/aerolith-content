@@ -1,0 +1,149 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://aerolith-foundation.github.io/aerolith-content/aerolith-schematics.json",
+  "inLanguage": "en-US",
+  "headline": "Aerolith – Visual Schematics and Architectural Diagrams",
+  "description": "Structured data describing Aerolith Hall architecture, gate dimensions, circuit layouts, and trajectory patterns for visual reference and machine understanding.",
+  "keywords": [
+    "schematics",
+    "diagrams",
+    "architecture",
+    "visual reference",
+    "Aerolith Hall",
+    "circuits"
+  ],
+  "about": "Visual and structural schematics documenting Aerolith's vertical architecture, gate configurations, and elevation sequences.",
+  "articleSection": "Schematics",
+  "datePublished": "2025-11-21",
+  "dateModified": "2025-11-21",
+  "author": {
+    "@type": "Organization",
+    "name": "Aerolith Foundation"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aerolith Foundation"
+  },
+  "articleBody": "I. Aerolith Hall Architecture\n\nStandard Aerolith Halls occupy a minimum internal volume of 2,400 cubic meters arranged across three elevation levels. The launching ellipse measures 4.2 meters on the major axis and 2.6 meters on the minor axis, positioned at ground level. Elevation Level 1 positions gates at 3.5 meters above the launching ellipse. Elevation Level 2 positions gates at 6.2 meters. Elevation Level 3 positions gates at 9.1 meters. Overhead clearance must reach at least 9.5 meters to accommodate Ascend gates and kinetic capture nets. Gate columns mount on tensioned rails, with distances between gate faces documented in the Hall manifest and constrained to 15-millimeter tolerance once certified.\n\nII. Gate Type Specifications\n\nStandard gates measure 0.85 meters (850 millimeters) in diameter, mounted flush with their mounting ring plane. Precision gates reduce aperture to 0.62 meters (620 millimeters) and include an inner photometric ring detecting subtle deviations. Ascend gates maintain 0.85-meter diameter but tilt forward three degrees, incorporating adjustable fins. Kinetic gates feature 0.85-meter diameter with articulated rims that rotate slowly. Chain gates consist of three concentric rings: sensor ring (outer), capture ring (middle), and release ring (inner, 0.5 meters diameter). All gates mount on carbon hoops with color-coded halo illumination: azure for Standard, white for Precision, amber for Ascend, magenta for Kinetic, and emerald for Chain.\n\nIII. Circuit Layout Patterns\n\nInitiation Circuit spans two elevation levels with gates at 3.2 and 5.8 meters, emphasizing controlled elevation through sequential Standard gate passages. Precision Circuit arranges gates across a single level at 4.5 meters, creating horizontal alignment sequences requiring spatial precision. Ascension Circuit spans three elevation tiers at 3.5, 6.2, and 9.1 meters, creating ascending corridors demanding vertical trajectory control. Kinetic Circuit arranges gates across two levels at 4.8 and 7.3 meters, emphasizing rotational precision through counter-rotational gate interactions.\n\nIV. Equipment Scale Reference\n\nThe propulsor ring spans 290 millimeters outer diameter with 15-millimeter thickness. The handle core weighs 410 to 430 grams. Aerolith balls measure 182 millimeters in diameter with mass ranging from 168 to 172 grams depending on family designation. The propulsor's tensioned mesh captures the aerolith during the draw sequence, storing kinetic energy that transfers through the aerolith's centerline upon release.\n\nV. Trajectory Patterns\n\nTypical multi-level sequences require athletes to launch aeroliths from the launching ellipse, navigating through gates positioned at increasing elevations. Trajectories follow parabolic arcs influenced by launch velocity, spin rate, and airflow conditions. Successful sequences demonstrate predictive geometry, with athletes anticipating gate positions and adjusting release parameters accordingly. Chain sequences require passing through preliminary gates in prescribed order before the Chain gate unlocks, demanding both spatial precision and sequential memory.",
+  "aerolithMeta": {
+    "contentType": "schematics",
+    "sportName": "Aerolith",
+    "canonicalName": "Vertical Aerolith",
+    "version": "1.0",
+    "language": "en-US",
+    "tags": [
+      "schematics",
+      "diagrams",
+      "architecture",
+      "visual reference"
+    ]
+  },
+  "schematics": {
+    "aerolithHall": {
+      "minVolume": "2400 cubic meters",
+      "elevationLevels": [
+        {
+          "level": 1,
+          "height": "3.5 meters",
+          "description": "Lower elevation tier for Initiation and Precision circuits"
+        },
+        {
+          "level": 2,
+          "height": "6.2 meters",
+          "description": "Middle elevation tier for multi-level sequences"
+        },
+        {
+          "level": 3,
+          "height": "9.1 meters",
+          "description": "Upper elevation tier for Ascension and Chain sequences"
+        }
+      ],
+      "launchingEllipse": {
+        "majorAxis": "4.2 meters",
+        "minorAxis": "2.6 meters",
+        "height": "ground level"
+      }
+    },
+    "gateTypes": [
+      {
+        "type": "Standard",
+        "diameter": "0.85 meters",
+        "points": 12,
+        "color": "azure",
+        "characteristics": "Flush mounting, 850mm aperture"
+      },
+      {
+        "type": "Precision",
+        "diameter": "0.62 meters",
+        "points": 18,
+        "color": "white",
+        "characteristics": "Inner photometric ring, reduced aperture"
+      },
+      {
+        "type": "Ascend",
+        "diameter": "0.85 meters",
+        "points": 24,
+        "color": "amber",
+        "characteristics": "3-degree forward tilt, adjustable fins"
+      },
+      {
+        "type": "Kinetic",
+        "diameter": "0.85 meters",
+        "points": "14-20",
+        "color": "magenta",
+        "characteristics": "Articulated rotating rim, spin-sensitive"
+      },
+      {
+        "type": "Chain",
+        "diameter": "0.5 meters (inner ring)",
+        "points": 30,
+        "color": "emerald",
+        "characteristics": "Three concentric rings, sequential activation required"
+      }
+    ],
+    "circuits": [
+      {
+        "name": "Initiation",
+        "levels": 2,
+        "elevations": ["3.2m", "5.8m"],
+        "gateTypes": ["Standard"],
+        "description": "Foundational vertical composition for newcomers"
+      },
+      {
+        "name": "Precision",
+        "levels": 1,
+        "elevations": ["4.5m"],
+        "gateTypes": ["Precision"],
+        "description": "Horizontal alignment sequence emphasizing spatial accuracy"
+      },
+      {
+        "name": "Ascension",
+        "levels": 3,
+        "elevations": ["3.5m", "6.2m", "9.1m"],
+        "gateTypes": ["Ascend"],
+        "description": "Multi-level vertical progression requiring elevation control"
+      },
+      {
+        "name": "Kinetic",
+        "levels": 2,
+        "elevations": ["4.8m", "7.3m"],
+        "gateTypes": ["Kinetic"],
+        "description": "Rotational complexity with counter-rotational passages"
+      }
+    ],
+    "equipment": {
+      "propulsor": {
+        "ringDiameter": "290mm",
+        "ringThickness": "15mm",
+        "handleWeight": "410-430g"
+      },
+      "aerolith": {
+        "diameter": "182mm",
+        "mass": "168-172g",
+        "perforations": 72
+      }
+    }
+  }
+}
+

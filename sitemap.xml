@@ -10,5 +10,7 @@
   <url><loc>https://aerolith-foundation.github.io/aerolith-content/aerolith-federation.json</loc></url>
   <url><loc>https://aerolith-foundation.github.io/aerolith-content/aerolith-glossary.json</loc></url>
   <url><loc>https://aerolith-foundation.github.io/aerolith-content/aerolith-collection.json</loc></url>
+  <url><loc>https://aerolith-foundation.github.io/aerolith-content/aerolith-schematics.json</loc></url>
+  <url><loc>https://aerolith-foundation.github.io/aerolith-content/schematics.html</loc></url>
   <url><loc>https://aerolith-foundation.github.io/aerolith-content/.well-known/ai.txt</loc></url>
 </urlset>

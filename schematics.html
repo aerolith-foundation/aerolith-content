@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerolith Schematics | Visual Diagrams</title>
+    <meta name="description" content="Visual schematics and diagrams illustrating Aerolith Hall architecture, gate types, circuit layouts, and aerolith trajectories.">
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+        background: #fafafa;
+        color: #1a1a1a;
+        line-height: 1.6;
+      }
+      h1 { color: #2c2c2c; border-bottom: 2px solid #ddd; padding-bottom: 0.5rem; }
+      h2 { color: #444; margin-top: 3rem; }
+      .schematic {
+        background: white;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        padding: 2rem;
+        margin: 2rem 0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      }
+      .schematic svg {
+        display: block;
+        margin: 1rem auto;
+        max-width: 100%;
+      }
+      .caption {
+        text-align: center;
+        color: #666;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        font-style: italic;
+      }
+      nav {
+        margin: 2rem 0;
+        padding: 1rem;
+        background: white;
+        border-radius: 4px;
+      }
+      nav a {
+        color: #0066cc;
+        text-decoration: none;
+        margin-right: 1.5rem;
+      }
+      nav a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">← Back to Home</a>
+    </nav>
+    
+    <h1>Aerolith Visual Schematics</h1>
+    <p>Architectural diagrams and visual references for understanding Aerolith's vertical precision discipline.</p>
+
+    <div class="schematic">
+      <h2>I. Aerolith Hall – Vertical Architecture</h2>
+      <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+        <!-- Background -->
+        <rect width="800" height="600" fill="#f8f8f8"/>
+        
+        <!-- Floor/Launching Ellipse -->
+        <ellipse cx="400" cy="550" rx="120" ry="60" fill="#2c2c2c" opacity="0.1"/>
+        <ellipse cx="400" cy="550" rx="100" ry="50" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="4,4"/>
+        <text x="400" y="560" text-anchor="middle" font-size="12" fill="#666">Launching Ellipse</text>
+        
+        <!-- Level 1 Gates (3.5m) -->
+        <line x1="200" y1="450" x2="600" y2="450" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+        <circle cx="300" cy="450" r="25" fill="none" stroke="#4a9eff" stroke-width="3"/>
+        <text x="300" y="455" text-anchor="middle" font-size="10" fill="#4a9eff">S</text>
+        <circle cx="400" cy="450" r="18" fill="none" stroke="#fff" stroke-width="3"/>
+        <text x="400" y="455" text-anchor="middle" font-size="10" fill="#666">P</text>
+        <circle cx="500" cy="450" r="25" fill="none" stroke="#ffaa00" stroke-width="3"/>
+        <text x="500" y="455" text-anchor="middle" font-size="10" fill="#ffaa00">A</text>
+        <text x="100" y="450" font-size="11" fill="#666">Level 1 (3.5m)</text>
+        
+        <!-- Level 2 Gates (6.2m) -->
+        <line x1="200" y1="300" x2="600" y2="300" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+        <circle cx="350" cy="300" r="25" fill="none" stroke="#4a9eff" stroke-width="3"/>
+        <text x="350" y="305" text-anchor="middle" font-size="10" fill="#4a9eff">S</text>
+        <circle cx="450" cy="300" r="18" fill="none" stroke="#fff" stroke-width="3"/>
+        <text x="450" y="305" text-anchor="middle" font-size="10" fill="#666">P</text>
+        <circle cx="550" cy="300" r="25" fill="none" stroke="#ff00aa" stroke-width="3"/>
+        <text x="550" y="305" text-anchor="middle" font-size="10" fill="#ff00aa">K</text>
+        <text x="100" y="300" font-size="11" fill="#666">Level 2 (6.2m)</text>
+        
+        <!-- Level 3 Gates (9.1m) -->
+        <line x1="200" y1="150" x2="600" y2="150" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+        <circle cx="400" cy="150" r="25" fill="none" stroke="#00cc66" stroke-width="3"/>
+        <text x="400" y="155" text-anchor="middle" font-size="10" fill="#00cc66">C</text>
+        <text x="100" y="150" font-size="11" fill="#666">Level 3 (9.1m)</text>
+        
+        <!-- Trajectory Example -->
+        <path d="M 400,550 Q 350,450 300,450 Q 375,375 400,300 Q 425,225 450,300 Q 475,375 550,300 Q 500,225 400,150" 
+              fill="none" stroke="#0066cc" stroke-width="2" opacity="0.6" stroke-dasharray="5,3"/>
+        
+        <!-- Legend -->
+        <g transform="translate(600, 50)">
+          <text x="0" y="0" font-size="14" font-weight="bold" fill="#333">Gate Types</text>
+          <circle cx="10" cy="25" r="8" fill="none" stroke="#4a9eff" stroke-width="2"/>
+          <text x="25" y="30" font-size="11" fill="#666">Standard (S)</text>
+          <circle cx="10" cy="45" r="6" fill="none" stroke="#666" stroke-width="2"/>
+          <text x="25" y="50" font-size="11" fill="#666">Precision (P)</text>
+          <circle cx="10" cy="65" r="8" fill="none" stroke="#ffaa00" stroke-width="2"/>
+          <text x="25" y="70" font-size="11" fill="#666">Ascend (A)</text>
+          <circle cx="10" cy="85" r="8" fill="none" stroke="#ff00aa" stroke-width="2"/>
+          <text x="25" y="90" font-size="11" fill="#666">Kinetic (K)</text>
+          <circle cx="10" cy="105" r="8" fill="none" stroke="#00cc66" stroke-width="2"/>
+          <text x="25" y="110" font-size="11" fill="#666">Chain (C)</text>
+        </g>
+      </svg>
+      <p class="caption">Standard Aerolith Hall architecture showing three elevation levels with gate columns. Trajectory example demonstrates a multi-level sequence.</p>
+    </div>
+
+    <div class="schematic">
+      <h2>II. Gate Types – Dimensions and Characteristics</h2>
+      <svg viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg">
+        <rect width="1000" height="400" fill="#f8f8f8"/>
+        
+        <!-- Standard Gate -->
+        <g transform="translate(100, 50)">
+          <circle cx="0" cy="150" r="42.5" fill="none" stroke="#4a9eff" stroke-width="4"/>
+          <line x1="-50" y1="150" x2="50" y2="150" stroke="#4a9eff" stroke-width="2"/>
+          <text x="0" y="220" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">Standard</text>
+          <text x="0" y="240" text-anchor="middle" font-size="11" fill="#666">850mm diameter</text>
+          <text x="0" y="255" text-anchor="middle" font-size="11" fill="#666">12 points</text>
+        </g>
+        
+        <!-- Precision Gate -->
+        <g transform="translate(300, 50)">
+          <circle cx="0" cy="150" r="31" fill="none" stroke="#666" stroke-width="4"/>
+          <circle cx="0" cy="150" r="25" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+          <line x1="-40" y1="150" x2="40" y2="150" stroke="#666" stroke-width="2"/>
+          <text x="0" y="220" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">Precision</text>
+          <text x="0" y="240" text-anchor="middle" font-size="11" fill="#666">620mm diameter</text>
+          <text x="0" y="255" text-anchor="middle" font-size="11" fill="#666">18 points</text>
+        </g>
+        
+        <!-- Ascend Gate -->
+        <g transform="translate(500, 50)">
+          <ellipse cx="0" cy="150" rx="42.5" ry="42.5" fill="none" stroke="#ffaa00" stroke-width="4" transform="rotate(-3 0 150)"/>
+          <line x1="-50" y1="150" x2="50" y2="150" stroke="#ffaa00" stroke-width="2"/>
+          <polygon points="-5,140 5,140 0,130" fill="#ffaa00"/>
+          <text x="0" y="220" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">Ascend</text>
+          <text x="0" y="240" text-anchor="middle" font-size="11" fill="#666">850mm, 3° tilt</text>
+          <text x="0" y="255" text-anchor="middle" font-size="11" fill="#666">24 points</text>
+        </g>
+        
+        <!-- Kinetic Gate -->
+        <g transform="translate(700, 50)">
+          <circle cx="0" cy="150" r="42.5" fill="none" stroke="#ff00aa" stroke-width="4"/>
+          <circle cx="0" cy="150" r="35" fill="none" stroke="#ff00aa" stroke-width="2" stroke-dasharray="3,3"/>
+          <text x="0" y="150" text-anchor="middle" font-size="16" fill="#ff00aa">↻</text>
+          <text x="0" y="220" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">Kinetic</text>
+          <text x="0" y="240" text-anchor="middle" font-size="11" fill="#666">Rotating rim</text>
+          <text x="0" y="255" text-anchor="middle" font-size="11" fill="#666">14-20 points</text>
+        </g>
+        
+        <!-- Chain Gate -->
+        <g transform="translate(900, 50)">
+          <circle cx="0" cy="150" r="50" fill="none" stroke="#00cc66" stroke-width="2" opacity="0.5"/>
+          <circle cx="0" cy="150" r="40" fill="none" stroke="#00cc66" stroke-width="2" opacity="0.7"/>
+          <circle cx="0" cy="150" r="25" fill="none" stroke="#00cc66" stroke-width="4"/>
+          <text x="0" y="220" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">Chain</text>
+          <text x="0" y="240" text-anchor="middle" font-size="11" fill="#666">3 concentric rings</text>
+          <text x="0" y="255" text-anchor="middle" font-size="11" fill="#666">30 points</text>
+        </g>
+      </svg>
+      <p class="caption">Five gate types with relative dimensions. Precision gates feature inner photometric rings; Ascend gates tilt forward; Kinetic gates rotate; Chain gates require sequential activation.</p>
+    </div>
+
+    <div class="schematic">
+      <h2>III. Circuit Types – Elevation Sequences</h2>
+      <svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
+        <rect width="1000" height="500" fill="#f8f8f8"/>
+        
+        <!-- Initiation Circuit -->
+        <g transform="translate(50, 50)">
+          <text x="0" y="0" font-size="16" font-weight="bold" fill="#333">Initiation Circuit</text>
+          <line x1="0" y1="30" x2="200" y2="30" stroke="#999" stroke-width="1"/>
+          <ellipse cx="100" cy="200" rx="80" ry="40" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="3,3"/>
+          <circle cx="50" cy="150" r="20" fill="none" stroke="#4a9eff" stroke-width="3"/>
+          <circle cx="150" cy="100" r="20" fill="none" stroke="#4a9eff" stroke-width="3"/>
+          <path d="M 100,200 Q 75,175 50,150 Q 100,125 150,100" fill="none" stroke="#0066cc" stroke-width="2" opacity="0.6"/>
+          <text x="100" y="250" text-anchor="middle" font-size="11" fill="#666">2 levels, 3.2m & 5.8m</text>
+        </g>
+        
+        <!-- Precision Circuit -->
+        <g transform="translate(300, 50)">
+          <text x="0" y="0" font-size="16" font-weight="bold" fill="#333">Precision Circuit</text>
+          <line x1="0" y1="30" x2="200" y2="30" stroke="#999" stroke-width="1"/>
+          <ellipse cx="100" cy="200" rx="80" ry="40" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="3,3"/>
+          <circle cx="50" cy="150" r="12" fill="none" stroke="#666" stroke-width="3"/>
+          <circle cx="100" cy="150" r="12" fill="none" stroke="#666" stroke-width="3"/>
+          <circle cx="150" cy="150" r="12" fill="none" stroke="#666" stroke-width="3"/>
+          <path d="M 100,200 L 50,150 L 100,150 L 150,150" fill="none" stroke="#0066cc" stroke-width="2" opacity="0.6"/>
+          <text x="100" y="250" text-anchor="middle" font-size="11" fill="#666">Single level, 4.5m</text>
+        </g>
+        
+        <!-- Ascension Circuit -->
+        <g transform="translate(550, 50)">
+          <text x="0" y="0" font-size="16" font-weight="bold" fill="#333">Ascension Circuit</text>
+          <line x1="0" y1="30" x2="200" y2="30" stroke="#999" stroke-width="1"/>
+          <ellipse cx="100" cy="200" rx="80" ry="40" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="3,3"/>
+          <circle cx="100" cy="150" r="20" fill="none" stroke="#ffaa00" stroke-width="3"/>
+          <circle cx="100" cy="100" r="20" fill="none" stroke="#ffaa00" stroke-width="3"/>
+          <circle cx="100" cy="50" r="20" fill="none" stroke="#ffaa00" stroke-width="3"/>
+          <path d="M 100,200 Q 100,175 100,150 Q 100,125 100,100 Q 100,75 100,50" fill="none" stroke="#0066cc" stroke-width="2" opacity="0.6"/>
+          <text x="100" y="250" text-anchor="middle" font-size="11" fill="#666">3 levels, 3.5m, 6.2m, 9.1m</text>
+        </g>
+        
+        <!-- Kinetic Circuit -->
+        <g transform="translate(800, 50)">
+          <text x="0" y="0" font-size="16" font-weight="bold" fill="#333">Kinetic Circuit</text>
+          <line x1="0" y1="30" x2="200" y2="30" stroke="#999" stroke-width="1"/>
+          <ellipse cx="100" cy="200" rx="80" ry="40" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="3,3"/>
+          <circle cx="80" cy="150" r="20" fill="none" stroke="#ff00aa" stroke-width="3"/>
+          <circle cx="120" cy="100" r="20" fill="none" stroke="#ff00aa" stroke-width="3"/>
+          <text x="80" y="150" text-anchor="middle" font-size="14" fill="#ff00aa">↻</text>
+          <text x="120" y="100" text-anchor="middle" font-size="14" fill="#ff00aa">↺</text>
+          <path d="M 100,200 Q 90,175 80,150 Q 100,125 120,100" fill="none" stroke="#0066cc" stroke-width="2" opacity="0.6"/>
+          <text x="100" y="250" text-anchor="middle" font-size="11" fill="#666">2 levels, counter-rotation</text>
+        </g>
+      </svg>
+      <p class="caption">Four archetypal circuit types showing gate arrangements and typical aerolith trajectories through elevation sequences.</p>
+    </div>
+
+    <div class="schematic">
+      <h2>IV. Propulsor and Aerolith – Scale Reference</h2>
+      <svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+        <rect width="600" height="300" fill="#f8f8f8"/>
+        
+        <!-- Propulsor -->
+        <g transform="translate(100, 50)">
+          <ellipse cx="0" cy="100" rx="145" ry="7.5" fill="none" stroke="#2c2c2c" stroke-width="3"/>
+          <rect x="-20" y="90" width="40" height="20" rx="3" fill="#2c2c2c" opacity="0.3"/>
+          <line x1="0" y1="100" x2="0" y2="90" stroke="#2c2c2c" stroke-width="2"/>
+          <text x="0" y="140" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">Propulsor</text>
+          <text x="0" y="155" text-anchor="middle" font-size="10" fill="#666">Ring: 290mm Ø</text>
+          <text x="0" y="170" text-anchor="middle" font-size="10" fill="#666">Handle: 410-430g</text>
+        </g>
+        
+        <!-- Aerolith Ball -->
+        <g transform="translate(400, 50)">
+          <circle cx="0" cy="100" r="91" fill="none" stroke="#666" stroke-width="2"/>
+          <circle cx="0" cy="100" r="85" fill="#f0f0f0"/>
+          <!-- Perforations -->
+          <circle cx="-30" cy="80" r="2" fill="#999"/>
+          <circle cx="30" cy="80" r="2" fill="#999"/>
+          <circle cx="0" cy="60" r="2" fill="#999"/>
+          <circle cx="-25" cy="110" r="2" fill="#999"/>
+          <circle cx="25" cy="110" r="2" fill="#999"/>
+          <circle cx="0" cy="130" r="2" fill="#999"/>
+          <text x="0" y="140" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">Aerolith Ball</text>
+          <text x="0" y="155" text-anchor="middle" font-size="10" fill="#666">182mm diameter</text>
+          <text x="0" y="170" text-anchor="middle" font-size="10" fill="#666">168-172g</text>
+        </g>
+        
+        <!-- Scale reference -->
+        <line x1="50" y1="250" x2="150" y2="250" stroke="#333" stroke-width="2"/>
+        <line x1="50" y1="245" x2="50" y2="255" stroke="#333" stroke-width="2"/>
+        <line x1="150" y1="245" x2="150" y2="255" stroke="#333" stroke-width="2"/>
+        <text x="100" y="270" text-anchor="middle" font-size="10" fill="#666">100mm scale</text>
+      </svg>
+      <p class="caption">Relative scale of propulsor ring and aerolith ball. The propulsor's tensioned mesh captures the aerolith during the draw sequence.</p>
+    </div>
+
+    <div class="schematic">
+      <h2>V. Trajectory Analysis – Multi-Level Sequence</h2>
+      <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+        <rect width="800" height="500" fill="#f8f8f8"/>
+        
+        <!-- Launching ellipse -->
+        <ellipse cx="400" cy="450" rx="100" ry="50" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="4,4"/>
+        
+        <!-- Gates at different levels -->
+        <circle cx="300" cy="350" r="25" fill="none" stroke="#4a9eff" stroke-width="3"/>
+        <text x="300" y="355" text-anchor="middle" font-size="10" fill="#4a9eff">S1</text>
+        
+        <circle cx="450" cy="250" r="18" fill="none" stroke="#666" stroke-width="3"/>
+        <text x="450" y="255" text-anchor="middle" font-size="10" fill="#666">P</text>
+        
+        <circle cx="550" cy="150" r="25" fill="none" stroke="#00cc66" stroke-width="3"/>
+        <text x="550" y="155" text-anchor="middle" font-size="10" fill="#00cc66">C</text>
+        
+        <!-- Trajectory with velocity vectors -->
+        <path d="M 400,450 Q 350,400 300,350 Q 375,300 450,250 Q 500,200 550,150" 
+              fill="none" stroke="#0066cc" stroke-width="3" opacity="0.7"/>
+        
+        <!-- Velocity markers -->
+        <g transform="translate(350, 400)">
+          <line x1="0" y1="0" x2="30" y2="-20" stroke="#0066cc" stroke-width="2" marker-end="url(#arrowhead)"/>
+        </g>
+        <g transform="translate(375, 300)">
+          <line x1="0" y1="0" x2="25" y2="-15" stroke="#0066cc" stroke-width="2" marker-end="url(#arrowhead)"/>
+        </g>
+        <g transform="translate(500, 200)">
+          <line x1="0" y1="0" x2="20" y2="-10" stroke="#0066cc" stroke-width="2" marker-end="url(#arrowhead)"/>
+        </g>
+        
+        <!-- Arrow marker definition -->
+        <defs>
+          <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <polygon points="0 0, 10 3, 0 6" fill="#0066cc"/>
+          </marker>
+        </defs>
+        
+        <!-- Labels -->
+        <text x="280" y="340" font-size="11" fill="#666">Release</text>
+        <text x="470" y="240" font-size="11" fill="#666">Precision</text>
+        <text x="570" y="140" font-size="11" fill="#666">Chain</text>
+        
+        <!-- Elevation markers -->
+        <line x1="50" y1="350" x2="250" y2="350" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+        <text x="60" y="355" font-size="10" fill="#666">3.5m</text>
+        <line x1="50" y1="250" x2="400" y2="250" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+        <text x="60" y="255" font-size="10" fill="#666">6.2m</text>
+        <line x1="50" y1="150" x2="500" y2="150" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+        <text x="60" y="155" font-size="10" fill="#666">9.1m</text>
+      </svg>
+      <p class="caption">Example trajectory showing aerolith path through a three-gate sequence (Standard → Precision → Chain) with velocity vectors indicating launch momentum and gate passage dynamics.</p>
+    </div>
+
+    <nav style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #ddd;">
+      <a href="index.html">← Back to Home</a>
+    </nav>
+  </body>
+</html>
+
